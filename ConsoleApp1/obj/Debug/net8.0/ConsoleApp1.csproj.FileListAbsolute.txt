@@ -12,3 +12,4 @@ c:\Users\verifier\Documents\vscode\WorkingWithDotNet\ConsoleApp1\obj\Debug\net8.
 c:\Users\verifier\Documents\vscode\WorkingWithDotNet\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 c:\Users\verifier\Documents\vscode\WorkingWithDotNet\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 c:\Users\verifier\Documents\vscode\WorkingWithDotNet\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+C:\Users\verifier\Documents\vscode\WorkingWithDotNet\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
