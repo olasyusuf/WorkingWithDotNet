@@ -1,0 +1,37 @@
+System.Collections
+System.Collections.Generic
+System.Collections.Concurrent
+
+
+System.Collections
+  - ArrayList Class
+  - Hashtable Class
+
+System.Collections.Generic
+  - List Class  (index)
+  - Stack - LIFO, FILO
+  - Queue - LILO, FIFO
+  - Array
+  - Sets 
+  - Dictionary
+  - SortedSet
+  - SortedDictionary
+  - SortedList
+
+
+
+
+
+
+
+
+
+Interfaces:
+
+    ICollection and ICollection<T>: 
+    IList and IList<T>: by index.
+    IDictionary and IDictionary<TKey, TValue>: For collections of key-value pairs.
+    IEnumerable and IEnumerable<T>: iterate over elements in a collection using foreach.
+
+
+LINQ
