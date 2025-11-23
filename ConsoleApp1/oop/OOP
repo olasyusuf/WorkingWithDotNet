@@ -1,0 +1,34 @@
+Class 
+ - nested class
+ - inner class
+ - local
+ - anonymous class 
+Object (instance)
+Interfaces - multple inheritance
+
+features of OOP
+Encapsulation - 
+Abstraction - abstract, interface
+Polymorphism 
+    - overriding
+    - overloading
+Inheritance
+   - base class (super class)
+   - derived class (sub class)
+
+
+class Human {
+
+}
+
+interface IMan {
+    void sayHi(string msg);
+    void sayHi(string msg, string name);
+}
+
+class Man : Human, IMan {
+
+}
+
+
+
