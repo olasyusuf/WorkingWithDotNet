@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrders>
+  <!-- 001 -->
+  <PurchaseOrder PurchaseOrderNumber="99501" OrderDate="1999-10-01">
+    <Address Type="Shipping">
+      <Name>Olivia Barnes</Name><Street>12 Cedar Lane</Street>
+      <City>Portland</City><State>OR</State><Zip>97205</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Marcus Flynn</Name><Street>45 Pine Street</Street>
+      <City>Denver</City><State>CO</State><Zip>80203</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell twice and leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="A100"><ProductName>Wireless Keyboard</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+      <Item PartNumber="B205"><ProductName>Desk Lamp</ProductName><Quantity>2</Quantity><USPrice>22.50</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 002 -->
+  <PurchaseOrder PurchaseOrderNumber="99502" OrderDate="1999-10-02">
+    <Address Type="Shipping">
+      <Name>Sophia Kim</Name><Street>88 Oak Avenue</Street>
+      <City>San Diego</City><State>CA</State><Zip>92101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>James O'Connor</Name><Street>101 Birch Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave with concierge if not home.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="C310"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 003 -->
+  <PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-03">
+    <Address Type="Shipping">
+      <Name>Liam Johnson</Name><Street>230 Elm Street</Street>
+      <City>Boston</City><State>MA</State><Zip>02108</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Williams</Name><Street>77 Willow Lane</Street>
+      <City>Chicago</City><State>IL</State><Zip>60605</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver before 5 PM.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="D415"><ProductName>Coffee Maker</ProductName><Quantity>1</Quantity><USPrice>89.95</USPrice></Item>
+      <Item PartNumber="E520"><ProductName>Toaster</ProductName><Quantity>1</Quantity><USPrice>34.75</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 004 -->
+  <PurchaseOrder PurchaseOrderNumber="99504" OrderDate="1999-10-04">
+    <Address Type="Shipping">
+      <Name>Chloe Davis</Name><Street>56 Maple Street</Street>
+      <City>Seattle</City><State>WA</State><Zip>98101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Lucas Martinez</Name><Street>9 Spruce Avenue</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package behind plants.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="F625"><ProductName>Electric Kettle</ProductName><Quantity>2</Quantity><USPrice>29.99</USPrice></Item>
+      <Item PartNumber="G730"><ProductName>Blender</ProductName><Quantity>1</Quantity><USPrice>49.50</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 005 -->
+  <PurchaseOrder PurchaseOrderNumber="99505" OrderDate="1999-10-05">
+    <Address Type="Shipping">
+      <Name>Noah Wilson</Name><Street>321 Cherry Blvd</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Isabella Clark</Name><Street>12 Walnut Street</Street>
+      <City>New York</City><State>NY</State><Zip>10007</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Call upon arrival.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="H835"><ProductName>Air Purifier</ProductName><Quantity>1</Quantity><USPrice>120.00</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 006 -->
+  <PurchaseOrder PurchaseOrderNumber="99506" OrderDate="1999-10-06">
+    <Address Type="Shipping">
+      <Name>Mia Thompson</Name><Street>78 Cedar Road</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Ethan Roberts</Name><Street>33 Pine Street</Street>
+      <City>Atlanta</City><State>GA</State><Zip>30303</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Front desk pickup if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="I940"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+      <Item PartNumber="J045"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 007 -->
+  <PurchaseOrder PurchaseOrderNumber="99507" OrderDate="1999-10-07">
+    <Address Type="Shipping">
+      <Name>Benjamin Lewis</Name><Street>90 Birch Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Charlotte Hall</Name><Street>56 Spruce Street</Street>
+      <City>Dallas</City><State>TX</State><Zip>75201</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave under mat if nobody answers.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="K150"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 008 -->
+  <PurchaseOrder PurchaseOrderNumber="99508" OrderDate="1999-10-08">
+    <Address Type="Shipping">
+      <Name>Amelia Scott</Name><Street>14 Oak Circle</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Daniel Young</Name><Street>88 Willow Road</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring twice, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="L265"><ProductName>Tablet</ProductName><Quantity>1</Quantity><USPrice>329.99</USPrice></Item>
+      <Item PartNumber="M370"><ProductName>Stylus Pen</ProductName><Quantity>2</Quantity><USPrice>19.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 009 -->
+  <PurchaseOrder PurchaseOrderNumber="99509" OrderDate="1999-10-09">
+    <Address Type="Shipping">
+      <Name>William Green</Name><Street>77 Cherry Street</Street>
+      <City>Minneapolis</City><State>MN</State><Zip>55401</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Sofia Adams</Name><Street>33 Elm Avenue</Street>
+      <City>St. Louis</City><State>MO</State><Zip>63101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver after 2 PM only.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="N480"><ProductName>Gaming Mouse</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 010 -->
+  <PurchaseOrder PurchaseOrderNumber="99510" OrderDate="1999-10-10">
+    <Address Type="Shipping">
+      <Name>Ella Wright</Name><Street>50 Pine Blvd</Street>
+      <City>New Orleans</City><State>LA</State><Zip>70112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Logan King</Name><Street>12 Maple Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="O590"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="P605"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+
+  <!-- 011 -->
+  <PurchaseOrder PurchaseOrderNumber="99511" OrderDate="1999-10-11">
+    <Address Type="Shipping">
+      <Name>Lucas Parker</Name><Street>15 Cedar Street</Street>
+      <City>Charlotte</City><State>NC</State><Zip>28202</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Hill</Name><Street>101 Oak Avenue</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave by back door.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="Q710"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+      <Item PartNumber="R825"><ProductName>Screwdriver Set</ProductName><Quantity>1</Quantity><USPrice>24.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 012 -->
+  <PurchaseOrder PurchaseOrderNumber="99512" OrderDate="1999-10-12">
+    <Address Type="Shipping">
+      <Name>Hannah Edwards</Name><Street>88 Willow Lane</Street>
+      <City>Salt Lake City</City><State>UT</State><Zip>84101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jack Allen</Name><Street>77 Maple Street</Street>
+      <City>Milwaukee</City><State>WI</State><Zip>53202</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Call before delivery.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="S930"><ProductName>Standing Fan</ProductName><Quantity>1</Quantity><USPrice>39.95</USPrice></Item>
+      <Item PartNumber="T045"><ProductName>Air Humidifier</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 013 -->
+  <PurchaseOrder PurchaseOrderNumber="99513" OrderDate="1999-10-13">
+    <Address Type="Shipping">
+      <Name>Elijah Campbell</Name><Street>12 Pine Circle</Street>
+      <City>Raleigh</City><State>NC</State><Zip>27601</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Lily Scott</Name><Street>45 Birch Street</Street>
+      <City>Omaha</City><State>NE</State><Zip>68102</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at reception if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="U150"><ProductName>Hair Dryer</ProductName><Quantity>1</Quantity><USPrice>29.95</USPrice></Item>
+      <Item PartNumber="V265"><ProductName>Shaver</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 014 -->
+  <PurchaseOrder PurchaseOrderNumber="99514" OrderDate="1999-10-14">
+    <Address Type="Shipping">
+      <Name>Sofia Murphy</Name><Street>33 Elm Street</Street>
+      <City>Indianapolis</City><State>IN</State><Zip>46204</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Henry Bennett</Name><Street>22 Oak Avenue</Street>
+      <City>Portland</City><State>ME</State><Zip>04101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver between 10 AM and 4 PM.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="W370"><ProductName>Electric Toothbrush</ProductName><Quantity>2</Quantity><USPrice>34.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 015 -->
+  <PurchaseOrder PurchaseOrderNumber="99515" OrderDate="1999-10-15">
+    <Address Type="Shipping">
+      <Name>Oliver Hughes</Name><Street>77 Spruce Road</Street>
+      <City>Memphis</City><State>TN</State><Zip>38103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Madison Bell</Name><Street>9 Pine Lane</Street>
+      <City>San Antonio</City><State>TX</State><Zip>78205</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side entrance if not home.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="X480"><ProductName>Portable Heater</ProductName><Quantity>1</Quantity><USPrice>89.95</USPrice></Item>
+      <Item PartNumber="Y595"><ProductName>Fan Heater</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 016 -->
+  <PurchaseOrder PurchaseOrderNumber="99516" OrderDate="1999-10-16">
+    <Address Type="Shipping">
+      <Name>Emma Foster</Name><Street>56 Maple Blvd</Street>
+      <City>Detroit</City><State>MI</State><Zip>48226</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Rivera</Name><Street>101 Cedar Street</Street>
+      <City>Minneapolis</City><State>MN</State><Zip>55402</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at reception desk.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="Z610"><ProductName>Smart Lamp</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 017 -->
+  <PurchaseOrder PurchaseOrderNumber="99517" OrderDate="1999-10-17">
+    <Address Type="Shipping">
+      <Name>Alexander Reed</Name><Street>12 Oak Street</Street>
+      <City>Chicago</City><State>IL</State><Zip>60607</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Victoria Rivera</Name><Street>33 Birch Avenue</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="AA720"><ProductName>Juicer</ProductName><Quantity>1</Quantity><USPrice>49.95</USPrice></Item>
+      <Item PartNumber="BB835"><ProductName>Blender</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 018 -->
+  <PurchaseOrder PurchaseOrderNumber="99518" OrderDate="1999-10-18">
+    <Address Type="Shipping">
+      <Name>Grace Kelly</Name><Street>45 Cedar Lane</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Samuel Wright</Name><Street>22 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="CC940"><ProductName>Smart Thermostat</ProductName><Quantity>1</Quantity><USPrice>129.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 019 -->
+  <PurchaseOrder PurchaseOrderNumber="99519" OrderDate="1999-10-19">
+    <Address Type="Shipping">
+      <Name>Logan Mitchell</Name><Street>101 Spruce Street</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Chloe Edwards</Name><Street>77 Elm Road</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85004</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave with front desk.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="DD150"><ProductName>Coffee Grinder</ProductName><Quantity>1</Quantity><USPrice>49.95</USPrice></Item>
+      <Item PartNumber="EE265"><ProductName>Espresso Machine</ProductName><Quantity>1</Quantity><USPrice>199.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 020 -->
+  <PurchaseOrder PurchaseOrderNumber="99520" OrderDate="1999-10-20">
+    <Address Type="Shipping">
+      <Name>Victoria Collins</Name><Street>33 Oak Lane</Street>
+      <City>Seattle</City><State>WA</State><Zip>98104</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Henry Foster</Name><Street>12 Maple Street</Street>
+      <City>Portland</City><State>OR</State><Zip>97206</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver before noon.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="FF370"><ProductName>Electric Grill</ProductName><Quantity>1</Quantity><USPrice>99.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+  <!-- 021 -->
+  <PurchaseOrder PurchaseOrderNumber="99521" OrderDate="1999-10-21">
+    <Address Type="Shipping">
+      <Name>Owen Parker</Name><Street>50 Maple Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Ava Simmons</Name><Street>88 Oak Avenue</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side porch if nobody answers.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="GG480"><ProductName>Smartphone</ProductName><Quantity>1</Quantity><USPrice>699.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 022 -->
+  <PurchaseOrder PurchaseOrderNumber="99522" OrderDate="1999-10-22">
+    <Address Type="Shipping">
+      <Name>Luna Hughes</Name><Street>101 Birch Lane</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Leo Walker</Name><Street>77 Cedar Street</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="HH595"><ProductName>Laptop</ProductName><Quantity>1</Quantity><USPrice>999.99</USPrice></Item>
+      <Item PartNumber="II610"><ProductName>Wireless Mouse</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 023 -->
+  <PurchaseOrder PurchaseOrderNumber="99523" OrderDate="1999-10-23">
+    <Address Type="Shipping">
+      <Name>Jack Bennett</Name><Street>22 Elm Street</Street>
+      <City>Chicago</City><State>IL</State><Zip>60605</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Sophia Cook</Name><Street>12 Maple Avenue</Street>
+      <City>Detroit</City><State>MI</State><Zip>48226</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell twice.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="JJ720"><ProductName>Monitor</ProductName><Quantity>1</Quantity><USPrice>179.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 024 -->
+  <PurchaseOrder PurchaseOrderNumber="99524" OrderDate="1999-10-24">
+    <Address Type="Shipping">
+      <Name>Chloe Sanders</Name><Street>56 Oak Road</Street>
+      <City>San Diego</City><State>CA</State><Zip>92101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Henry Peterson</Name><Street>33 Cedar Lane</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front desk if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="KK835"><ProductName>Tablet</ProductName><Quantity>1</Quantity><USPrice>329.99</USPrice></Item>
+      <Item PartNumber="LL940"><ProductName>Stylus</ProductName><Quantity>1</Quantity><USPrice>19.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 025 -->
+  <PurchaseOrder PurchaseOrderNumber="99525" OrderDate="1999-10-25">
+    <Address Type="Shipping">
+      <Name>Ethan Ross</Name><Street>88 Pine Street</Street>
+      <City>Boston</City><State>MA</State><Zip>02108</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Madison Gray</Name><Street>12 Birch Road</Street>
+      <City>New York</City><State>NY</State><Zip>10007</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver before 5 PM.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="MM045"><ProductName>Printer</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 026 -->
+  <PurchaseOrder PurchaseOrderNumber="99526" OrderDate="1999-10-26">
+    <Address Type="Shipping">
+      <Name>Ava Richardson</Name><Street>33 Maple Street</Street>
+      <City>Seattle</City><State>WA</State><Zip>98101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Logan Bennett</Name><Street>50 Cedar Lane</Street>
+      <City>Portland</City><State>OR</State><Zip>97205</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Call before leaving package.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="NN150"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 027 -->
+  <PurchaseOrder PurchaseOrderNumber="99527" OrderDate="1999-10-27">
+    <Address Type="Shipping">
+      <Name>Benjamin Hughes</Name><Street>12 Oak Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Isabella Moore</Name><Street>77 Elm Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="OO265"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="PP370"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 028 -->
+  <PurchaseOrder PurchaseOrderNumber="99528" OrderDate="1999-10-28">
+    <Address Type="Shipping">
+      <Name>Mia Powell</Name><Street>45 Birch Street</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Gray</Name><Street>101 Maple Road</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at back porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="QQ480"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="RR595"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 029 -->
+  <PurchaseOrder PurchaseOrderNumber="99529" OrderDate="1999-10-29">
+    <Address Type="Shipping">
+      <Name>Alexander Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Diaz</Name><Street>33 Pine Road</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring doorbell once and leave.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="SS610"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 030 -->
+  <PurchaseOrder PurchaseOrderNumber="99530" OrderDate="1999-10-30">
+    <Address Type="Shipping">
+      <Name>Charlotte Morgan</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Lucas Foster</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="TT720"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="UU835"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+  <!-- 031 -->
+  <PurchaseOrder PurchaseOrderNumber="99531" OrderDate="1999-10-31">
+    <Address Type="Shipping">
+      <Name>Amelia Carter</Name><Street>12 Birch Road</Street>
+      <City>Boston</City><State>MA</State><Zip>02110</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Bennett</Name><Street>33 Maple Street</Street>
+      <City>New York</City><State>NY</State><Zip>10007</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave with concierge if not home.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="VV940"><ProductName>Desk Lamp</ProductName><Quantity>2</Quantity><USPrice>22.50</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 032 -->
+  <PurchaseOrder PurchaseOrderNumber="99532" OrderDate="1999-11-01">
+    <Address Type="Shipping">
+      <Name>Logan Scott</Name><Street>45 Pine Street</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Sophia Turner</Name><Street>88 Oak Avenue</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Call upon arrival.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="WW150"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+      <Item PartNumber="XX265"><ProductName>Screwdriver Set</ProductName><Quantity>1</Quantity><USPrice>24.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 033 -->
+  <PurchaseOrder PurchaseOrderNumber="99533" OrderDate="1999-11-02">
+    <Address Type="Shipping">
+      <Name>Charlotte Adams</Name><Street>77 Elm Street</Street>
+      <City>Chicago</City><State>IL</State><Zip>60607</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Henry Phillips</Name><Street>12 Cedar Lane</Street>
+      <City>Detroit</City><State>MI</State><Zip>48226</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at back door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="YY370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 034 -->
+  <PurchaseOrder PurchaseOrderNumber="99534" OrderDate="1999-11-03">
+    <Address Type="Shipping">
+      <Name>Owen Mitchell</Name><Street>33 Oak Road</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Watson</Name><Street>50 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell twice, leave package.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="ZZ480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="AAA595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 035 -->
+  <PurchaseOrder PurchaseOrderNumber="99535" OrderDate="1999-11-04">
+    <Address Type="Shipping">
+      <Name>Mia Hughes</Name><Street>12 Pine Lane</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Lucas Davis</Name><Street>101 Birch Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave on porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="BBB610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="CCC720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 036 -->
+  <PurchaseOrder PurchaseOrderNumber="99536" OrderDate="1999-11-05">
+    <Address Type="Shipping">
+      <Name>Alexander Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="DDD835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 037 -->
+  <PurchaseOrder PurchaseOrderNumber="99537" OrderDate="1999-11-06">
+    <Address Type="Shipping">
+      <Name>Victoria Stewart</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Henry Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="EEE940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="FFF045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 038 -->
+  <PurchaseOrder PurchaseOrderNumber="99538" OrderDate="1999-11-07">
+    <Address Type="Shipping">
+      <Name>Noah Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Lily Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="GGG150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="HHH265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 039 -->
+  <PurchaseOrder PurchaseOrderNumber="99539" OrderDate="1999-11-08">
+    <Address Type="Shipping">
+      <Name>Emma Russell</Name><Street>33 Cedar Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Walker</Name><Street>50 Pine Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="III370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 040 -->
+  <PurchaseOrder PurchaseOrderNumber="99540" OrderDate="1999-11-09">
+    <Address Type="Shipping">
+      <Name>Benjamin Hughes</Name><Street>12 Oak Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Mia Carter</Name><Street>33 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="JJJ480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="KKK595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 041 -->
+  <PurchaseOrder PurchaseOrderNumber="99541" OrderDate="1999-11-10">
+    <Address Type="Shipping">
+      <Name>Charlotte Murphy</Name><Street>45 Birch Road</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Phillips</Name><Street>101 Pine Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="LLL610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="MMM720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 042 -->
+  <PurchaseOrder PurchaseOrderNumber="99542" OrderDate="1999-11-11">
+    <Address Type="Shipping">
+      <Name>Henry Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="NNN835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 043 -->
+  <PurchaseOrder PurchaseOrderNumber="99543" OrderDate="1999-11-12">
+    <Address Type="Shipping">
+      <Name>Mia Kelly</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="OOO940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="PPP045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 044 -->
+  <PurchaseOrder PurchaseOrderNumber="99544" OrderDate="1999-11-13">
+    <Address Type="Shipping">
+      <Name>Oliver Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="QQQ150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="RRR265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 045 -->
+  <PurchaseOrder PurchaseOrderNumber="99545" OrderDate="1999-11-14">
+    <Address Type="Shipping">
+      <Name>Emma Russell</Name><Street>33 Cedar Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Walker</Name><Street>50 Pine Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="SSS370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 046 -->
+  <PurchaseOrder PurchaseOrderNumber="99546" OrderDate="1999-11-15">
+    <Address Type="Shipping">
+      <Name>Benjamin Hughes</Name><Street>12 Oak Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Mia Carter</Name><Street>33 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="TTT480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="UUU595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 047 -->
+  <PurchaseOrder PurchaseOrderNumber="99547" OrderDate="1999-11-16">
+    <Address Type="Shipping">
+      <Name>Charlotte Murphy</Name><Street>45 Birch Road</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Phillips</Name><Street>101 Pine Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="VVV610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="WWW720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 048 -->
+  <PurchaseOrder PurchaseOrderNumber="99548" OrderDate="1999-11-17">
+    <Address Type="Shipping">
+      <Name>Henry Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="XXX835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 049 -->
+  <PurchaseOrder PurchaseOrderNumber="99549" OrderDate="1999-11-18">
+    <Address Type="Shipping">
+      <Name>Mia Kelly</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="YYY940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="ZZZ045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 050 -->
+  <PurchaseOrder PurchaseOrderNumber="99550" OrderDate="1999-11-19">
+    <Address Type="Shipping">
+      <Name>Oliver Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="AAAA150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="BBBB265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+  <!-- 051 -->
+  <PurchaseOrder PurchaseOrderNumber="99551" OrderDate="1999-11-20">
+    <Address Type="Shipping">
+      <Name>Lucas Bennett</Name><Street>33 Oak Lane</Street>
+      <City>Seattle</City><State>WA</State><Zip>98101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Olivia Morgan</Name><Street>50 Pine Road</Street>
+      <City>Portland</City><State>OR</State><Zip>97205</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave with neighbor if not home.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="CCCC370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 052 -->
+  <PurchaseOrder PurchaseOrderNumber="99552" OrderDate="1999-11-21">
+    <Address Type="Shipping">
+      <Name>Amelia Ross</Name><Street>12 Maple Street</Street>
+      <City>Chicago</City><State>IL</State><Zip>60607</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Henry Edwards</Name><Street>33 Birch Lane</Street>
+      <City>Detroit</City><State>MI</State><Zip>48226</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Call upon arrival.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="DDDD480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="EEEE595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 053 -->
+  <PurchaseOrder PurchaseOrderNumber="99553" OrderDate="1999-11-22">
+    <Address Type="Shipping">
+      <Name>Charlotte Hughes</Name><Street>50 Oak Road</Street>
+      <City>San Diego</City><State>CA</State><Zip>92101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Phillips</Name><Street>12 Cedar Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="FFFF610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="GGGG720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 054 -->
+  <PurchaseOrder PurchaseOrderNumber="99554" OrderDate="1999-11-23">
+    <Address Type="Shipping">
+      <Name>Oliver Scott</Name><Street>22 Cedar Lane</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Morgan</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="HHHH835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 055 -->
+  <PurchaseOrder PurchaseOrderNumber="99555" OrderDate="1999-11-24">
+    <Address Type="Shipping">
+      <Name>Mia Bennett</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Turner</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="IIII940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="JJJJ045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 056 -->
+  <PurchaseOrder PurchaseOrderNumber="99556" OrderDate="1999-11-25">
+    <Address Type="Shipping">
+      <Name>Emma Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="KKKK150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="LLLL265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 057 -->
+  <PurchaseOrder PurchaseOrderNumber="99557" OrderDate="1999-11-26">
+    <Address Type="Shipping">
+      <Name>Benjamin Turner</Name><Street>33 Cedar Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Mia Walker</Name><Street>50 Pine Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="MMMM370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 058 -->
+  <PurchaseOrder PurchaseOrderNumber="99558" OrderDate="1999-11-27">
+    <Address Type="Shipping">
+      <Name>Charlotte Morgan</Name><Street>12 Oak Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Lucas Carter</Name><Street>33 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="NNNN480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="OOOO595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 059 -->
+  <PurchaseOrder PurchaseOrderNumber="99559" OrderDate="1999-11-28">
+    <Address Type="Shipping">
+      <Name>Victoria Hughes</Name><Street>45 Birch Road</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Phillips</Name><Street>101 Pine Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="PPPP610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="QQQQ720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 060 -->
+  <PurchaseOrder PurchaseOrderNumber="99560" OrderDate="1999-11-29">
+    <Address Type="Shipping">
+      <Name>Henry Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="RRRR835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 061 -->
+  <PurchaseOrder PurchaseOrderNumber="99561" OrderDate="1999-11-30">
+    <Address Type="Shipping">
+      <Name>Mia Kelly</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="SSSS940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="TTTT045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+  <!-- 062 -->
+  <PurchaseOrder PurchaseOrderNumber="99562" OrderDate="1999-12-01">
+    <Address Type="Shipping">
+      <Name>Oliver Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="UUUU150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="VVVV265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 063 -->
+  <PurchaseOrder PurchaseOrderNumber="99563" OrderDate="1999-12-02">
+    <Address Type="Shipping">
+      <Name>Emma Russell</Name><Street>33 Cedar Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Walker</Name><Street>50 Pine Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="WWWW370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 064 -->
+  <PurchaseOrder PurchaseOrderNumber="99564" OrderDate="1999-12-03">
+    <Address Type="Shipping">
+      <Name>Benjamin Hughes</Name><Street>12 Oak Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Mia Carter</Name><Street>33 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="XXXX480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="YYYY595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 065 -->
+  <PurchaseOrder PurchaseOrderNumber="99565" OrderDate="1999-12-04">
+    <Address Type="Shipping">
+      <Name>Charlotte Murphy</Name><Street>45 Birch Road</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Phillips</Name><Street>101 Pine Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="ZZZZ610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="AAAA720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 066 -->
+  <PurchaseOrder PurchaseOrderNumber="99566" OrderDate="1999-12-05">
+    <Address Type="Shipping">
+      <Name>Henry Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="BBBB835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 067 -->
+  <PurchaseOrder PurchaseOrderNumber="99567" OrderDate="1999-12-06">
+    <Address Type="Shipping">
+      <Name>Mia Kelly</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="CCCC940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="DDDD045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 068 -->
+  <PurchaseOrder PurchaseOrderNumber="99568" OrderDate="1999-12-07">
+    <Address Type="Shipping">
+      <Name>Oliver Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="EEEE150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="FFFF265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 069 -->
+  <PurchaseOrder PurchaseOrderNumber="99569" OrderDate="1999-12-08">
+    <Address Type="Shipping">
+      <Name>Emma Russell</Name><Street>33 Cedar Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Walker</Name><Street>50 Pine Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="GGGG370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 070 -->
+  <PurchaseOrder PurchaseOrderNumber="99570" OrderDate="1999-12-09">
+    <Address Type="Shipping">
+      <Name>Benjamin Hughes</Name><Street>12 Oak Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Mia Carter</Name><Street>33 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="HHHH480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="IIII595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+<!-- 071 -->
+  <PurchaseOrder PurchaseOrderNumber="99571" OrderDate="1999-12-10">
+    <Address Type="Shipping">
+      <Name>Charlotte Murphy</Name><Street>45 Birch Road</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Phillips</Name><Street>101 Pine Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="JJJJ610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="KKKK720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>r
+<!-- 072 -->
+  <PurchaseOrder PurchaseOrderNumber="99572" OrderDate="1999-12-11">
+    <Address Type="Shipping">
+      <Name>Henry Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="LLLL835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 073 -->
+  <PurchaseOrder PurchaseOrderNumber="99573" OrderDate="1999-12-12">
+    <Address Type="Shipping">
+      <Name>Mia Kelly</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="MMMM940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="NNNN045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>59.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 074 -->
+  <PurchaseOrder PurchaseOrderNumber="99574" OrderDate="1999-12-13">
+    <Address Type="Shipping">
+      <Name>Oliver Kelly</Name><Street>77 Elm Street</Street>
+      <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Emma Edwards</Name><Street>12 Maple Road</Street>
+      <City>Austin</City><State>TX</State><Zip>78701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Ring bell once, leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="OOOO150"><ProductName>Desk Lamp</ProductName><Quantity>1</Quantity><USPrice>22.50</USPrice></Item>
+      <Item PartNumber="PPPP265"><ProductName>Electric Drill</ProductName><Quantity>1</Quantity><USPrice>79.95</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 075 -->
+  <PurchaseOrder PurchaseOrderNumber="99575" OrderDate="1999-12-14">
+    <Address Type="Shipping">
+      <Name>Emma Russell</Name><Street>33 Cedar Lane</Street>
+      <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Jackson Walker</Name><Street>50 Pine Street</Street>
+      <City>Columbus</City><State>OH</State><Zip>43215</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at side door if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="QQQQ370"><ProductName>Smartwatch</ProductName><Quantity>1</Quantity><USPrice>199.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 076 -->
+  <PurchaseOrder PurchaseOrderNumber="99576" OrderDate="1999-12-15">
+    <Address Type="Shipping">
+      <Name>Benjamin Hughes</Name><Street>12 Oak Lane</Street>
+      <City>San Francisco</City><State>CA</State><Zip>94105</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Mia Carter</Name><Street>33 Maple Street</Street>
+      <City>Los Angeles</City><State>CA</State><Zip>90001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave package with neighbor if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="RRRR480"><ProductName>Camera</ProductName><Quantity>1</Quantity><USPrice>349.99</USPrice></Item>
+      <Item PartNumber="SSSS595"><ProductName>Tripod</ProductName><Quantity>1</Quantity><USPrice>49.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 077 -->
+  <PurchaseOrder PurchaseOrderNumber="99577" OrderDate="1999-12-16">
+    <Address Type="Shipping">
+      <Name>Charlotte Murphy</Name><Street>45 Birch Road</Street>
+      <City>Orlando</City><State>FL</State><Zip>32801</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Oliver Phillips</Name><Street>101 Pine Street</Street>
+      <City>Miami</City><State>FL</State><Zip>33101</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="TTTT610"><ProductName>Bluetooth Speaker</ProductName><Quantity>1</Quantity><USPrice>59.99</USPrice></Item>
+      <Item PartNumber="UUUU720"><ProductName>Headphones</ProductName><Quantity>1</Quantity><USPrice>79.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 078 -->
+  <PurchaseOrder PurchaseOrderNumber="99578" OrderDate="1999-12-17">
+    <Address Type="Shipping">
+      <Name>Henry Turner</Name><Street>22 Cedar Street</Street>
+      <City>San Jose</City><State>CA</State><Zip>95112</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Grace Collins</Name><Street>33 Pine Street</Street>
+      <City>Fresno</City><State>CA</State><Zip>93701</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Deliver to mailbox if absent.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="VVVV835"><ProductName>Electric Kettle</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+
+  <!-- 079 -->
+  <PurchaseOrder PurchaseOrderNumber="99579" OrderDate="1999-12-18">
+    <Address Type="Shipping">
+      <Name>Mia Kelly</Name><Street>50 Spruce Lane</Street>
+      <City>Las Vegas</City><State>NV</State><Zip>89101</Zip><Country>USA</Country>
+    </Address>
+    <Address Type="Billing">
+      <Name>Noah Morgan</Name><Street>12 Oak Street</Street>
+      <City>Phoenix</City><State>AZ</State><Zip>85001</Zip><Country>USA</Country>
+    </Address>
+    <DeliveryNotes>Leave at front porch.</DeliveryNotes>
+    <Items>
+      <Item PartNumber="WWWW940"><ProductName>Microwave Oven</ProductName><Quantity>1</Quantity><USPrice>149.95</USPrice></Item>
+      <Item PartNumber="XXXX045"><ProductName>Toaster Oven</ProductName><Quantity>1</Quantity><USPrice>29.99</USPrice></Item>
+    </Items>
+  </PurchaseOrder>
+</PurchaseOrders>

@@ -92,38 +92,38 @@ class Program
         Console.WriteLine(library.ReturnBook(member, book) ?? "Error returning book.");
     }
 
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Bolajoko's Library Management System");
-        InitializeLibrary();
+    // static void Main(string[] args)
+    // {
+    //     Console.WriteLine("Bolajoko's Library Management System");
+    //     InitializeLibrary();
         
-        while (true)
-        {
-            Console.WriteLine("\nMenu:");
-            Console.WriteLine("1. Create Membership Account");
-            Console.WriteLine("2. Borrow Book");
-            Console.WriteLine("3. Return Books");
-            Console.WriteLine("9. Exit");
-            Console.Write("Choose an option: ");
+    //     while (true)
+    //     {
+    //         Console.WriteLine("\nMenu:");
+    //         Console.WriteLine("1. Create Membership Account");
+    //         Console.WriteLine("2. Borrow Book");
+    //         Console.WriteLine("3. Return Books");
+    //         Console.WriteLine("9. Exit");
+    //         Console.Write("Choose an option: ");
 
-            switch (Console.ReadLine())
-            {
-                case "1":
-                    CreateMember();
-                    break;
-                case "2":
-                    ProcessBorrowBook();
-                    break;
-                case "3":
-                    ProcessReturnBook();
-                    break;
-                default:
-                    Console.WriteLine("Invalid choice. Please try again.");
-                    Environment.Exit(0); 
-                    break;
-            }
-        }
-    }
+    //         switch (Console.ReadLine())
+    //         {
+    //             case "1":
+    //                 CreateMember();
+    //                 break;
+    //             case "2":
+    //                 ProcessBorrowBook();
+    //                 break;
+    //             case "3":
+    //                 ProcessReturnBook();
+    //                 break;
+    //             default:
+    //                 Console.WriteLine("Invalid choice. Please try again.");
+    //                 Environment.Exit(0); 
+    //                 break;
+    //         }
+    //     }
+    // }
 }
 
 

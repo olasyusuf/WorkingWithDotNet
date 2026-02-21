@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-20">
+  <Address Type="Shipping">
+    <Name>Ellen Adams</Name>
+    <Street>123 Maple Street</Street>
+    <City>Mill Valley</City>
+    <State>CA</State>
+    <Zip>10999</Zip>
+    <Country>USA</Country>
+  </Address>
+  <Address Type="Billing">
+    <Name>Tai Yee</Name>
+    <Street>8 Oak Avenue</Street>
+    <City>Old Town</City>
+    <State>PA</State>
+    <Zip>95819</Zip>
+    <Country>USA</Country>
+  </Address>
+  <DeliveryNotes>Please leave packages in shed by driveway.</DeliveryNotes>
+  <Items>
+    <Item PartNumber="872-AA">
+      <ProductName>Lawnmower</ProductName>
+      <Quantity>1</Quantity>
+      <USPrice>148.95</USPrice>
+      <Comment>Confirm this is electric</Comment>
+    </Item>
+    <Item PartNumber="926-AA">
+      <ProductName>Baby Monitor</ProductName>
+      <Quantity>2</Quantity>
+      <USPrice>39.98</USPrice>
+      <ShipDate>1999-05-21</ShipDate>
+    </Item>
+  </Items>
+</PurchaseOrder>
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrders>
+  <!-- Records 001–100 -->
+
+  <!-- 001–010 -->
+  <PurchaseOrder id="PO-001" date="2024-01-01" status="Open"><Customer id="C-001"/><Total>10.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-002" date="2024-01-02" status="Closed"><Customer id="C-002"/><Total>20.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-003" date="2024-01-03" status="Open"><Customer id="C-003"/><Total>30.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-004" date="2024-01-04" status="Closed"><Customer id="C-004"/><Total>40.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-005" date="2024-01-05" status="Open"><Customer id="C-005"/><Total>50.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-006" date="2024-01-06" status="Closed"><Customer id="C-006"/><Total>60.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-007" date="2024-01-07" status="Open"><Customer id="C-007"/><Total>70.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-008" date="2024-01-08" status="Closed"><Customer id="C-008"/><Total>80.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-009" date="2024-01-09" status="Open"><Customer id="C-009"/><Total>90.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-010" date="2024-01-10" status="Closed"><Customer id="C-010"/><Total>100.00</Total></PurchaseOrder>
+
+  <!-- 011–020 -->
+  <PurchaseOrder id="PO-011" date="2024-01-11" status="Open"><Customer id="C-001"/><Total>110.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-012" date="2024-01-12" status="Closed"><Customer id="C-002"/><Total>120.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-013" date="2024-01-13" status="Open"><Customer id="C-003"/><Total>130.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-014" date="2024-01-14" status="Closed"><Customer id="C-004"/><Total>140.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-015" date="2024-01-15" status="Open"><Customer id="C-005"/><Total>150.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-016" date="2024-01-16" status="Closed"><Customer id="C-006"/><Total>160.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-017" date="2024-01-17" status="Open"><Customer id="C-007"/><Total>170.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-018" date="2024-01-18" status="Closed"><Customer id="C-008"/><Total>180.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-019" date="2024-01-19" status="Open"><Customer id="C-009"/><Total>190.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-020" date="2024-01-20" status="Closed"><Customer id="C-010"/><Total>200.00</Total></PurchaseOrder>
+
+  <!-- 021–030 -->
+  <PurchaseOrder id="PO-021" date="2024-01-21" status="Open"><Customer id="C-001"/><Total>210.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-022" date="2024-01-22" status="Closed"><Customer id="C-002"/><Total>220.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-023" date="2024-01-23" status="Open"><Customer id="C-003"/><Total>230.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-024" date="2024-01-24" status="Closed"><Customer id="C-004"/><Total>240.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-025" date="2024-01-25" status="Open"><Customer id="C-005"/><Total>250.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-026" date="2024-01-26" status="Closed"><Customer id="C-006"/><Total>260.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-027" date="2024-01-27" status="Open"><Customer id="C-007"/><Total>270.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-028" date="2024-01-28" status="Closed"><Customer id="C-008"/><Total>280.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-029" date="2024-01-29" status="Open"><Customer id="C-009"/><Total>290.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-030" date="2024-01-30" status="Closed"><Customer id="C-010"/><Total>300.00</Total></PurchaseOrder>
+
+  <!-- 031–040 -->
+  <PurchaseOrder id="PO-031" date="2024-02-01" status="Open"><Customer id="C-001"/><Total>310.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-032" date="2024-02-02" status="Closed"><Customer id="C-002"/><Total>320.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-033" date="2024-02-03" status="Open"><Customer id="C-003"/><Total>330.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-034" date="2024-02-04" status="Closed"><Customer id="C-004"/><Total>340.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-035" date="2024-02-05" status="Open"><Customer id="C-005"/><Total>350.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-036" date="2024-02-06" status="Closed"><Customer id="C-006"/><Total>360.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-037" date="2024-02-07" status="Open"><Customer id="C-007"/><Total>370.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-038" date="2024-02-08" status="Closed"><Customer id="C-008"/><Total>380.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-039" date="2024-02-09" status="Open"><Customer id="C-009"/><Total>390.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-040" date="2024-02-10" status="Closed"><Customer id="C-010"/><Total>400.00</Total></PurchaseOrder>
+  <!-- 041–050 -->
+  <PurchaseOrder id="PO-041" date="2024-02-11" status="Open"><Customer id="C-001"/><Total>410.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-042" date="2024-02-12" status="Closed"><Customer id="C-002"/><Total>420.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-043" date="2024-02-13" status="Open"><Customer id="C-003"/><Total>430.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-044" date="2024-02-14" status="Closed"><Customer id="C-004"/><Total>440.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-045" date="2024-02-15" status="Open"><Customer id="C-005"/><Total>450.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-046" date="2024-02-16" status="Closed"><Customer id="C-006"/><Total>460.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-047" date="2024-02-17" status="Open"><Customer id="C-007"/><Total>470.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-048" date="2024-02-18" status="Closed"><Customer id="C-008"/><Total>480.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-049" date="2024-02-19" status="Open"><Customer id="C-009"/><Total>490.00</Total></PurchaseOrder>
+  <PurchaseOrder id="PO-050" date="2024-02-20" status="Closed"><Customer id="C-010"/><Total>500.00</Total></PurchaseOrder>
+
+  <!-- 051–100 follow same pattern up to PO-100 -->
+</PurchaseOrders>
