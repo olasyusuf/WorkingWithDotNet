@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Xml.Linq;
-using System.IO;
-using System.Drawing;
 
 class PurchaseProgram
 {
@@ -43,8 +38,9 @@ class PurchaseProgram
                     Console.Write("Enter Purchase Order Number: ");
                     var PurchaseOrderNumber = Console.ReadLine();
 
-                    PurchaseOrder Order = SearchOrder(PurchaseOrderNumber);
+                    PurchaseOrder? Order = SearchOrder(PurchaseOrderNumber);
                     DisplayOrder(Order);
+                    SendOrderNotification(Order);
                     break;
                 case "3":
                     Console.Write("Enter start date: ");
@@ -54,11 +50,37 @@ class PurchaseProgram
                     var EndDate = getDate("end", "2026-01-01");
 
                     List <PurchaseOrder> OrdersByDate = SearchOrderByDate(StartDate, EndDate);
-                    DisplayAllOrders(OrdersByDate);  // to reviewas against line 40
+                    DisplayAllOrders(OrdersByDate);  
                     break;
                 default:
                     Console.WriteLine("Invalid option...");
                     break;
+            }
+        }
+    }
+
+    private static void SendOrderNotification(PurchaseOrder? order)
+    {
+        if (order != null)
+        {
+            NotificationProcess Process = new NotificationProcess();
+            NotificationService Trigger = new NotificationService();
+
+            if (order.Email != "" && order.PhoneNo != "")
+            {
+                Process.NofiticationDelegate = Trigger.SendEmail;
+                Process.ProcessdOrder(order.PurchaseOrderNumber, order.Email);
+
+                Process.NofiticationDelegate = Trigger.SendSMS;
+                Process.ProcessdOrder(order.PurchaseOrderNumber, order.PhoneNo);
+            }else if(order.Email == "" && order.PhoneNo != "")
+            {
+                Process.NofiticationDelegate = Trigger.SendSMS;
+                Process.ProcessdOrder(order.PurchaseOrderNumber, order.PhoneNo);
+            }else if (order.Email != "" && order.PhoneNo == "")
+            {
+                Process.NofiticationDelegate = Trigger.SendEmail;
+                Process.ProcessdOrder(order.PurchaseOrderNumber, order.Email);
             }
         }
     }
@@ -69,14 +91,28 @@ class PurchaseProgram
         return DateOnly.Parse(Console.ReadLine()??$"{defaultDate}");
     }
     
-    private static PurchaseOrder SearchOrder(string? purchaseOrderNumber)
+    private static PurchaseOrder? SearchOrder(string? purchaseOrderNumber)
     {
-        throw new NotImplementedException();
+        return purchaseOrders
+        .Where(order => order.PurchaseOrderNumber == purchaseOrderNumber)
+        .FirstOrDefault();
     }
 
     private static List<PurchaseOrder> SearchOrderByDate(DateOnly startDate, DateOnly endDate)
     {
-        throw new NotImplementedException();
+        if (endDate > startDate)
+        {
+            
+            Console.WriteLine($"{new string('-', 40)}\n");
+            Console.WriteLine("End Date cannot be earlier than Start Date...");
+            Console.WriteLine($"{new string('-', 40)}\n");
+            return [];
+        }
+
+        return purchaseOrders
+        .Where(order => order.OrderDate >= startDate && order.OrderDate <= endDate)
+        .OrderBy(order => order.OrderDate)
+        .ToList();
     }
 
     private static void PrintAddress(Address? address)
@@ -88,24 +124,40 @@ class PurchaseProgram
         Console.Write($" {address.Country}\n");
     }
 
-    private static void DisplayOrder(PurchaseOrder order)
+    private static void PrintOrderItems(List<Item> items)
     {
-        // public List<Item> Items { get; set; } = [];
+        items.ForEach(item =>
+        {
+            Console.WriteLine($"Product name: {item.ProductName}, Price: {item.USPrice}, Qty: {item.Quantity}");
+        });
+    }
 
-        Console.WriteLine($"Purchase Order Number: \t{order.PurchaseOrderNumber}");
-        Console.WriteLine($"Purchase Date:  \t{order.OrderDate}");
-        Console.WriteLine($"Delivery Notes: \t{order.DeliveryNotes}");
+    private static void DisplayOrder(PurchaseOrder? order)
+    {
+        if (order == null)
+        {
+            Console.WriteLine($"{new string('-', 40)}\n");
+            Console.WriteLine("No order found!");
+            Console.WriteLine($"{new string('-', 40)}\n");
+        }
+        else{
+            Console.WriteLine($"{new string('-', 40)}\n");
+            Console.WriteLine($"Purchase Order Number: \t{order.PurchaseOrderNumber}");
+            Console.WriteLine($"Purchase Date:  \t{order.OrderDate}");
+            Console.WriteLine($"PhoneNo:  \t\t{order.PhoneNo}");
+            Console.WriteLine($"Email:  \t\t{order.Email}");
+            Console.WriteLine($"Delivery Notes: \t{order.DeliveryNotes}");
 
-        Console.Write("BillingAddress: ");
-        PrintAddress(order.BillingAddress);
+            Console.Write("BillingAddress: ");
+            PrintAddress(order.BillingAddress);
 
-        Console.Write("ShippingAddress: ");
-        PrintAddress(order.ShippingAddress);
+            Console.Write("ShippingAddress: ");
+            PrintAddress(order.ShippingAddress);
 
+            PrintOrderItems(order.Items);
 
-        Console.WriteLine($"{new string('-', 40)}\n");
-
-
+            Console.WriteLine($"{new string('-', 40)}\n");
+        }    
     }
 
     private static void DisplayAllOrders(List<PurchaseOrder> orders)
@@ -119,6 +171,8 @@ class PurchaseProgram
         .Select(po => new PurchaseOrder
         {
             PurchaseOrderNumber = po.Attribute("PurchaseOrderNumber")?.Value ?? "",
+            PhoneNo = po.Attribute("PhoneNo")?.Value ?? "",
+            Email = po.Attribute("Email")?.Value ?? "",
             DeliveryNotes = po.Element("DeliveryNotes")?.Value,
             OrderDate = DateOnly.Parse(po.Attribute("OrderDate")?.Value ?? "1900-01-01"),
             ShippingAddress = GetAddress(po, "Shipping"),
@@ -159,8 +213,7 @@ class PurchaseProgram
             .ToList();
         
         return items;
-    }
-        
+    }     
 }
 
 

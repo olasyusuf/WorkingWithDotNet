@@ -1,6 +1,8 @@
 public class PurchaseOrder
 {
     public required string PurchaseOrderNumber { get; set; }
+    public string ? PhoneNo { get; set; }
+    public string ? Email { get; set; }
     public string ? DeliveryNotes { get; set; }
     public DateOnly OrderDate { get; set; }
     public Address ? ShippingAddress { get; set; }

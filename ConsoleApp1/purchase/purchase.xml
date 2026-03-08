@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PurchaseOrders>
   <!-- 001 -->
-  <PurchaseOrder PurchaseOrderNumber="99501" OrderDate="1999-10-01">
+  <PurchaseOrder PurchaseOrderNumber="99501" OrderDate="1999-10-01" PhoneNo="555-6789" Email="olivia.barnes@example.com">
     <Address Type="Shipping">
       <Name>Olivia Barnes</Name><Street>12 Cedar Lane</Street>
       <City>Portland</City><State>OR</State><Zip>97205</Zip><Country>USA</Country>
@@ -18,7 +18,7 @@
   </PurchaseOrder>
 
   <!-- 002 -->
-  <PurchaseOrder PurchaseOrderNumber="99502" OrderDate="1999-10-02">
+  <PurchaseOrder PurchaseOrderNumber="99502" OrderDate="1999-10-02" PhoneNo="555-4321" Email="">
     <Address Type="Shipping">
       <Name>Sophia Kim</Name><Street>88 Oak Avenue</Street>
       <City>San Diego</City><State>CA</State><Zip>92101</Zip><Country>USA</Country>
@@ -34,7 +34,7 @@
   </PurchaseOrder>
 
   <!-- 003 -->
-  <PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-03">
+  <PurchaseOrder PurchaseOrderNumber="99503" OrderDate="1999-10-03" PhoneNo="" Email="liam.johnson@example.com">
     <Address Type="Shipping">
       <Name>Liam Johnson</Name><Street>230 Elm Street</Street>
       <City>Boston</City><State>MA</State><Zip>02108</Zip><Country>USA</Country>
@@ -51,7 +51,7 @@
   </PurchaseOrder>
 
   <!-- 004 -->
-  <PurchaseOrder PurchaseOrderNumber="99504" OrderDate="1999-10-04">
+  <PurchaseOrder PurchaseOrderNumber="99504" OrderDate="1999-10-04" PhoneNo="555-9876" Email="chloe.davis@example.com">
     <Address Type="Shipping">
       <Name>Chloe Davis</Name><Street>56 Maple Street</Street>
       <City>Seattle</City><State>WA</State><Zip>98101</Zip><Country>USA</Country>
@@ -68,7 +68,7 @@
   </PurchaseOrder>
 
   <!-- 005 -->
-  <PurchaseOrder PurchaseOrderNumber="99505" OrderDate="1999-10-05">
+  <PurchaseOrder PurchaseOrderNumber="99505" OrderDate="1999-10-05" PhoneNo="555-2468" Email="">
     <Address Type="Shipping">
       <Name>Noah Wilson</Name><Street>321 Cherry Blvd</Street>
       <City>Houston</City><State>TX</State><Zip>77002</Zip><Country>USA</Country>
@@ -84,7 +84,7 @@
   </PurchaseOrder>
 
   <!-- 006 -->
-  <PurchaseOrder PurchaseOrderNumber="99506" OrderDate="1999-10-06">
+  <PurchaseOrder PurchaseOrderNumber="99506" OrderDate="1999-10-06" PhoneNo="" Email="mia.thompson@example.com">
     <Address Type="Shipping">
       <Name>Mia Thompson</Name><Street>78 Cedar Road</Street>
       <City>Philadelphia</City><State>PA</State><Zip>19103</Zip><Country>USA</Country>
