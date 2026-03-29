@@ -8,7 +8,6 @@ public class PurchaseOrder
     public Address ? ShippingAddress { get; set; }
     public Address ? BillingAddress { get; set; }
     public List<Item> Items { get; set; } = [];
-
 }
 
 
